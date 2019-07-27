@@ -13,6 +13,11 @@
             margin: 0 auto;
         }
 
+        .inner img {
+            display: block;
+            margin: auto;
+        }
+
         a {
             color: black;
         }
@@ -21,9 +26,17 @@
             font-size: 2em;
         }
 
+        .inner a:not(:last-child) {
+            margin-right: 1em;
+        }
+
         @media(max-width: 600px) {
             .inner a {
-                font-size: 1.5em;
+                font-size: 2.5em;
+            }
+
+            .inner a:not(:last-child) {
+                margin-right: 0.5em;
             }
         }
     </style>
@@ -36,12 +49,11 @@
                     src="https://assets.bigcartel.com/theme_images/3373016/newlogo.jpg" alt="Jeremy's Logo"></a>
 
             <div class="inner">
-                <a href="https://jeremybastian.bigcartel.com/"><i class="fas fa-shopping-bag"
-                        title="BigCartel"></i></a>&nbsp;
-                <a href="https://www.patreon.com/JeremyBastian"><i class="fab fa-patreon" title="Patreon"></i></a>&nbsp;
+                <a href="https://jeremybastian.bigcartel.com/"><i class="fas fa-shopping-bag" title="BigCartel"></i></a>
+                <a href="https://www.patreon.com/JeremyBastian"><i class="fab fa-patreon" title="Patreon"></i></a>
                 <a href="https://www.instagram.com/jeremy_bastian/"><i class="fab fa-instagram"
-                    title="Instagram"></i></a>&nbsp;
-                <a href="https://twitter.com/JeremyBastian"><i class="fab fa-twitter" title="Twitter"></i></a>&nbsp;
+                        title="Instagram"></i></a>
+                <a href="https://twitter.com/JeremyBastian"><i class="fab fa-twitter" title="Twitter"></i></a>
                 <a href="https://jeremybastian.blogspot.com/"><i class="fab fa-blogger-b" title="BlogSpot"></i></a>
             </div>
         </div>
